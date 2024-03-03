@@ -1,3 +1,8 @@
+"""
+code example for the Luhn algorithm to check credit card numbers and other IDs and numbers, made with Luhn algorithm. the exercise is based on a course
+by FreeCodeCamp about Python. 
+Author: codingSandman; date: March/2024; License: free to use
+"""
 def verify_card_number(card_number):
     sum_of_odd_digits = 0
     card_number_reversed = card_number[::-1]
