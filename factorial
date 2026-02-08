@@ -1,0 +1,9 @@
+"""to remember"""
+
+def factorial(fact):
+  result = 1
+  for n in range (1, fact):
+    result *= n
+  return result
+
+factorial(5)
